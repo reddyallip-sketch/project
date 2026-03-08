@@ -1,0 +1,147 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#ffffff;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#000;
+color:#fff;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#1c69d4;
+}
+
+/* Hero Section */
+
+.hero{
+height:90vh;
+background:url('https://bmwpc.nyc3.cdn.digitaloceanspaces.com/images/m4-gt4/bmw-m4-meet-beast.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+padding-left:80px;
+color:white;
+}
+
+.hero-text h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.hero-text button{
+padding:12px 25px;
+background:#1c69d4;
+border:none;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* Models */
+
+.models{
+padding:60px;
+text-align:center;
+}
+
+.models h2{
+font-size:35px;
+margin-bottom:40px;
+}
+
+.car-container{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.car{
+background:#f4f4f4;
+padding:30px;
+width:250px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.car:hover{
+transform:scale(1.05);
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+padding:40px;
+margin-top:60px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-section h3{
+margin-bottom:15px;
+}
+
+.footer-section ul{
+list-style:none;
+}
+
+.footer-section ul li{
+margin-bottom:8px;
+}
+
+.footer-section ul li a{
+text-decoration:none;
+color:white;
+}
+
+.footer-section ul li a:hover{
+color:#1c69d4;
+}
+
+.copyright{
+text-align:center;
+margin-top:30px;
+font-size:14px;
+color:#aaa;
+}
